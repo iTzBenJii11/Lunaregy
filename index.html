@@ -20,13 +20,17 @@
 
     <div class="fullNavBar">
       <div class="container">
-        <img class="searchIcon" src="images/searchIcon.png" alt="ICON" />
+        <button>
+          <img class="searchIcon" src="images/searchIcon.png" alt="ICON" />
+        </button>
         <img
           class="mainLogo"
           src="images/brandmark-design (2).png"
           alt="LUNAREGY Logo"
         />
-        <img class="basketIcon" src="images/basketIcon.png" alt="" />
+        <button>
+          <img class="basketIcon" src="images/basketIcon.png" alt="" />
+        </button>
       </div>
       <nav class="navbar">
         <ol>
@@ -74,9 +78,10 @@
       </div>
     </div>
 
+    <h1 class="endpointHeading">API ENDPOINTS</h1>
     <div class="containerProductBig">
       <div class="productObjBig">
-        <h1>PRODUCT TITLE</h1>
+        <h1 id="pokemon">PRODUCT TITLE</h1>
         <h2 id="jsonData">Loading Data...</h2>
       </div>
     </div>
@@ -85,7 +90,7 @@
       <h1>FOOTER</h1>
     </footer>
 
-    <script></script>
     <script src="app.js"></script>
+    <script src="api.js"></script>
   </body>
 </html>
