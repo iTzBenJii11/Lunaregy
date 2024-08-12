@@ -1,0 +1,139 @@
+/* Style the navbar */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #d2d8d2;
+}
+
+.navbar {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ol li {
+  margin-right: 25px; /* Adds spacing between each list item */
+}
+
+.fullNavBar {
+  background-color: #d8dbe2;
+  padding: 0.5rem;
+}
+
+.mainLogo {
+  width: 10rem;
+  height: 1.2rem;
+}
+
+.searchIcon {
+  width: 2rem;
+  height: 2rem;
+}
+.basketIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar ol li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: none;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+
+.navbar ol li a {
+  text-decoration: none;
+}
+
+/* Ensure the video fills the width of the container */
+.runningManVideo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Contains the productObj 0 and 1*/
+.containerProduct {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.productObj0 {
+  width: 20rem;
+  height: 25rem;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.productObj1 {
+  width: 20rem;
+  height: 30rem;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.productObj1 h1::before {
+  content: "";
+  background: linear-gradient(to left, black, red);
+  height: 4px;
+  position: relative;
+  top: 40px;
+  display: block;
+}
+
+/* Contains productObjSmall*/
+.containerProductSmall {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.productObjSmall {
+  text-align: center;
+  border: solid 1px black;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 1rem;
+}
+
+/* Contains productObjBig */
+.containerProductBig {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.productObjBig {
+  border: solid 1px black;
+  width: 60rem;
+  height: 30em;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #d8dbe2;
+  padding: 0.1rem;
+}
+
+.footer h1 {
+  display: flex;
+  justify-content: center;
+}
